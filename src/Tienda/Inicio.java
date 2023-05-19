@@ -20,7 +20,6 @@ public class Inicio extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         Ope.ImagenInicio(EtiMargen, BotonInventario, BotonVender);
         Ope.ArchivoInventario();
-        this.setVisible(false);
     }
 
 
@@ -86,7 +85,8 @@ public class Inicio extends javax.swing.JFrame {
 
     private void BotonInventarioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonInventarioMouseClicked
         // TODO add your handling code here:
-        
+        this.dispose();
+        new Inventario().setVisible(true);
     }//GEN-LAST:event_BotonInventarioMouseClicked
 
     private void BotonVenderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonVenderActionPerformed
