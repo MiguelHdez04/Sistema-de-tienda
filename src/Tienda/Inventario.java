@@ -89,7 +89,8 @@ public class Inventario extends javax.swing.JFrame {
 
     private void BotonRevisarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BotonRevisarMouseClicked
         // TODO add your handling code here:
-        
+        this.dispose();
+        new Revisar().setVisible(true);
     }//GEN-LAST:event_BotonRevisarMouseClicked
 
     private void BotonAbastecerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonAbastecerActionPerformed
