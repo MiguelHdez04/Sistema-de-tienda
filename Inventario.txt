@@ -1,0 +1,6 @@
+Sabritas=5
+Coca cola=0
+Donitas=9
+Del valle=0
+Takis=10
+Leche alpura=0
